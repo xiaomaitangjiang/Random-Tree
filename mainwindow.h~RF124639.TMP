@@ -1,0 +1,55 @@
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+
+#include <QMainWindow>
+#include <QProcess>
+#include <QFont>
+#include <QRegularExpression>
+#include <QFontDialog>
+
+QT_BEGIN_NAMESPACE
+namespace Ui {
+class MainWindow;
+}
+QT_END_NAMESPACE
+
+class MainWindow : public QMainWindow
+{
+    Q_OBJECT
+
+public:
+    MainWindow(QWidget *parent = nullptr);
+    ~MainWindow();
+
+    /*void numcreate_port()
+    {numcreate();}*/
+
+private slots:
+    //void numcreate();
+
+    void on_stop_button_clicked();
+
+    void on_start_button_clicked();
+
+    void on_actioncharacters_size_triggered();
+
+    void on_actionseed_triggered();
+
+    void on_action_charactors_select_triggered();
+
+    void on_actionspeed_triggered();
+
+private:
+    Ui::MainWindow *ui;
+    struct numIn_state
+    {
+        bool success;
+        bool large;
+        bool small;
+    };
+    numIn_state out={1,0,0};
+    //bool start=0;
+    //bool stop;
+
+};
+#endif // MAINWINDOW_H

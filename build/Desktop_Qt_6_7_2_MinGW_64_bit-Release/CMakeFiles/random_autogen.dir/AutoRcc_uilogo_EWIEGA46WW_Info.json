@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "D:/Users/xiaomai/file/qt/random/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/random_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Users/xiaomai/file/qt/random/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Users/xiaomai/file/qt/random/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Users/xiaomai/file/qt/random",
+	"CMAKE_SOURCE_DIR" : "D:/Users/xiaomai/file/qt/random",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "D:/Users/xiaomai/file/qt/random/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/random_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/Users/xiaomai/file/qt/random/jojo.png",
+		"D:/Users/xiaomai/file/qt/random/logo.ico",
+		"D:/Users/xiaomai/file/qt/random/creater.ico"
+	],
+	"LOCK_FILE" : "D:/Users/xiaomai/file/qt/random/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/random_autogen.dir/AutoRcc_uilogo_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "uilogo" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_uilogo.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt/6.7.2/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/Users/xiaomai/file/qt/random/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/CMakeFiles/random_autogen.dir/AutoRcc_uilogo_EWIEGA46WW_Used.txt",
+	"SOURCE" : "D:/Users/xiaomai/file/qt/random/uilogo.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

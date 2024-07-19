@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>logo.ico</file>
+        <file>aidbf-g7rjn-001.ico</file>
+        <file>logo.rc</file>
+    </qresource>
+</RCC>
