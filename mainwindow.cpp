@@ -116,6 +116,7 @@ void MainWindow::on_action_seed_triggered()
     ui->passlist->clear();
     ui->linenum_show->clear();
     ui->lineEdit->clear();
+    pass_num="0";
 
     bool sucess=1;
     seed=0;
@@ -127,6 +128,7 @@ void MainWindow::on_action_seed_triggered()
         if(dialog->back.startsWith("pass"))   //pass数字 实现
         {
             pass_num=dialog->back.remove(0,4);
+
         }
         else
         {QMessageBox::warning(this,"警告","种子设置错误");}

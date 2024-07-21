@@ -237,7 +237,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "\346\221\207\345\217\267\346\240\221", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "\351\232\217\346\234\272\346\240\221", nullptr));
         action_speed->setText(QCoreApplication::translate("MainWindow", "\350\256\276\347\275\256\351\200\237\345\272\246", nullptr));
         action_speed->setIconText(QCoreApplication::translate("MainWindow", "speed", nullptr));
 #if QT_CONFIG(tooltip)

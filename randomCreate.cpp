@@ -80,12 +80,15 @@ void ramdon_thread(int seed,vector<unsigned int>& list_in ,unsigned int max,unsi
         seed=(unsigned int)time(0);
     }
     mt19937 a(seed);
+
     list_in.resize(max);
     unsigned int i=1;
     for(auto &a: list_in)
     {
-        if(i!=pass)
-        {a=i;}
+        if(i==pass)
+        {i++;}
+
+        a=i;
         i++;
     }
     if(pass<=max && pass>=1)
